@@ -1,0 +1,10 @@
+<% for quize in @quizes: %>
+  <div class="item" data-id="<%= quize.id %>">
+    <a data-type="show"><%= quize.title %></a>
+    
+    <a data-type="edit">Edit</a> 
+    <a data-type="destroy">Destroy</a>
+  </div>
+<% end %>
+
+<p><a data-type="new">New Movie</a></p>

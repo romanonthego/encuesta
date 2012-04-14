@@ -1,0 +1,52 @@
+@import "twitter/bootstrap/bootstrap";
+body { padding-top: 60px; }
+
+@import "twitter/bootstrap/responsive";
+
+// Set the correct sprite paths
+@iconSpritePath: asset-path('twitter/bootstrap/glyphicons-halflings.png');
+@iconWhiteSpritePath: asset-path('twitter/bootstrap/glyphicons-halflings-white.png');
+
+// Set the Font Awesome (Font Awesome is default. You can disable by commenting below lines)
+@fontAwesomeEotPath: asset-path('fontawesome-webfont.eot');
+@fontAwesomeWoffPath: asset-path('fontawesome-webfont.woff');
+@fontAwesomeTtfPath: asset-path('fontawesome-webfont.ttf');
+@fontAwesomeSvgzPath: asset-path('fontawesome-webfont.svgz');
+@fontAwesomeSvgPath: asset-path('fontawesome-webfont.svg');
+
+// Font Awesome
+@import "fontawesome";
+
+// Your custom LESS stylesheets goes here
+//
+// Since bootstrap was imported above you have access to its mixins which
+// you may use and inherit here
+//
+// If you'd like to override bootstrap's own variables, you can do so here as well
+// See http://twitter.github.com/bootstrap/less.html for their names and documentation
+//
+// Example:
+// @linkColor: #ff0000;
+
+@font-face {
+    font-family: 'ChunkFiveRegular';
+    src: asset-path('Chunkfive-webfont.eot');
+    src: asset-path('Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+         asset-path('Chunkfive-webfont.woff') format('woff'),
+         asset-path('Chunkfive-webfont.ttf') format('truetype'),
+         asset-path('Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+  background-image: image-url('grid-bg.png');
+}
+
+h1#title {
+  font-family:ChunkFiveRegular;
+  font-size:6em;
+  text-align:center;
+}
