@@ -1,6 +1,8 @@
 Encuesta::Application.routes.draw do
-  root :to => "quizes#index"
-  resources :quizes
+  root :to => "quizzes#index"
+  scope "api" do
+    resources :quizzes
+  end
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

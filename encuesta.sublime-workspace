@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"do",
+				"do"
+			],
+			[
+				"clas",
+				"class"
+			],
+			[
+				"quz",
+				"quizes"
+			],
+			[
+				"Chunk",
+				"ChunkFiveRegular"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
 				"back",
 				"background	background-image: url"
 			],
@@ -160,10 +180,6 @@
 				"function"
 			],
 			[
-				"do",
-				"document"
-			],
-			[
 				"re",
 				"req: require \"..\""
 			],
@@ -250,10 +266,6 @@
 			[
 				"mod",
 				"mod: module .. ClassMethods .. end"
-			],
-			[
-				"clas",
-				"class"
 			],
 			[
 				"admin",
@@ -479,15 +491,7 @@
 			"file": "app/assets/stylesheets/bootstrap_and_overrides.css.less",
 			"settings":
 			{
-				"buffer_size": 1559,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/application.rb",
-			"settings":
-			{
-				"buffer_size": 2824,
+				"buffer_size": 1792,
 				"line_ending": "Unix"
 			}
 		}
@@ -498,6 +502,10 @@
 		"height": 375.0,
 		"selected_items":
 		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
 			[
 				"pakc",
 				"Package Control: Install Package"
@@ -521,10 +529,6 @@
 			[
 				"pacl",
 				"Package Control: Install Package"
-			],
-			[
-				"pack",
-				"Package Control: Remove Package"
 			],
 			[
 				"test",
@@ -587,7 +591,7 @@
 				"Set Syntax: Ruby"
 			]
 		],
-		"width": 606.0
+		"width": 435.0
 	},
 	"console":
 	{
@@ -604,19 +608,40 @@
 	},
 	"file_history":
 	[
+		"/home/roman/code/encuesta/db/migrate/20120413161317_create_quizes.rb",
+		"/home/roman/code/encuesta/db/schema.rb",
+		"/home/roman/code/encuesta/app/models/quiz.rb",
+		"/home/roman/code/encuesta/app/controllers/quizzes_controller.rb",
+		"/home/roman/code/encuesta/app/assets/javascripts/encuesta.js.coffee",
+		"/home/roman/code/encuesta/app/assets/javascripts/routers/quizzes.js.coffee",
+		"/home/roman/code/encuesta/app/assets/javascripts/models/quiz.js.coffee",
+		"/home/roman/code/encuesta/app/assets/javascripts/collections/quizzes.js.coffee",
+		"/home/roman/code/encuesta/app/assets/javascripts/views/quizes/index.js.coffee",
+		"/home/roman/code/encuesta/config/routes.rb",
+		"/home/roman/code/encuesta/db/seeds.rb",
+		"/home/roman/code/encuesta/app/views/quizzes/index.haml",
+		"/home/roman/code/encuesta/app/assets/javascripts/views/quizzes/index.js.coffee",
+		"/home/roman/code/encuesta/app/assets/javascripts/collections/quizes.js.coffee",
+		"/home/roman/code/encuesta/app/assets/templates/quizes/index.jst.eco",
+		"/home/roman/code/encuesta/app/assets/javascripts/routers/quizes.js.coffee",
+		"/home/roman/code/encuesta/app/views/layouts/application.html.erb",
+		"/home/roman/code/encuesta/app/assets/javascripts/application.js",
+		"/home/roman/code/encuesta/app/assets/javascripts/app/views/quizes/new.jst.eco",
 		"/home/roman/code/encuesta/app/assets/javascripts/app/controllers/quizes.js.coffee",
+		"/home/roman/code/encuesta/app/assets/javascripts/bootstrap.js.coffee",
+		"/home/roman/code/encuesta/Gemfile",
+		"/home/roman/code/encuesta/app/assets/javascripts/app/views/quizes/index.jst.eco",
+		"/home/roman/code/encuesta/app/assets/javascripts/app/index.js.coffee",
+		"/home/roman/Rails/Grab-all-the-Posters!/app/assets/javascripts/app/controllers/movies.js.coffee",
+		"/home/roman/code/encuesta/app/assets/stylesheets/bootstrap_and_overrides.css.less",
+		"/home/roman/code/encuesta/config/application.rb",
 		"/home/roman/code/encuesta/app/assets/javascripts/app/models/quize.js.coffee",
 		"/home/roman/Rails/Grab-all-the-Posters!/app/assets/javascripts/app/index.js.coffee",
-		"/home/roman/code/encuesta/app/assets/javascripts/app/index.js.coffee",
-		"/home/roman/code/encuesta/app/views/layouts/application.html.erb",
-		"/home/roman/code/encuesta/config/routes.rb",
-		"/home/roman/code/encuesta/app/assets/javascripts/application.js",
 		"/home/roman/code/encuesta/app/assets/javascripts/application.js.coffee",
 		"/home/roman/code/encuesta/app/assets/javascripts/app/models/quizes.js.coffee",
 		"/home/roman/code/encuesta/app/views/quizes/index.haml",
 		"/home/roman/code/encuesta/app/controllers/quizes_controller.rb",
 		"/home/roman/code/encuesta/app/assets/javascripts/quizes.js.coffee",
-		"/home/roman/code/encuesta/Gemfile",
 		"/home/roman/Rails/Adisk-new/app/views/chainlets/new.haml",
 		"/home/roman/Rails/Adisk-new/app/assets/stylesheets/app/sortable.css.less",
 		"/home/roman/Rails/Adisk-new/app/helpers/adisk_form_builder.rb",
@@ -694,7 +719,6 @@
 		"/home/roman/Rails/Adisk-new/app/concerns/users_array_extension.rb",
 		"/home/roman/Rails/Remolino/app/models/user.rb",
 		"/home/roman/Rails/Adisk-new/app/concerns/documento.rb",
-		"/home/roman/Rails/Grab-all-the-Posters!/app/assets/javascripts/app/controllers/movies.js.coffee",
 		"/home/roman/Rails/Adisk-new/app/assets/javascripts/app/controllers/users.js.coffee",
 		"/home/roman/Rails/Adisk-new/app/assets/javascripts/app/index.js.coffee",
 		"/home/roman/Rails/Adisk-new/app/views/layouts/application.haml",
@@ -711,27 +735,7 @@
 		"/home/roman/Rails/Remolino/app/assets/javascripts/rails.validations.adiskFormBuilder.js",
 		"/home/roman/Rails/Adisk-new/app/views/dashboard/test_form.haml",
 		"/home/roman/Rails/Adisk-new/app/assets/stylesheets/bootstrap_and_overrides.css.less",
-		"/home/roman/Rails/Remolino/Gemfile",
-		"/home/roman/.config/sublime-text-2/Packages/Todo Manager/README.md",
-		"/home/roman/Rails/Remolino/app/views/users/index.slim",
-		"/home/roman/Rails/Adisk-new/app/views/layouts/gate.haml",
-		"/home/roman/Rails/Adisk-new/app/views/users/show.haml",
-		"/home/roman/Rails/Adisk-new/app/views/layouts/application-old.html.erb",
-		"/home/roman/Rails/Adisk-new/app/views/layouts/nav.haml",
-		"/home/roman/Rails/Adisk-new/app/views/layouts/application.html.erb",
-		"/home/roman/Rails/Adisk-new/config/environments/development.rb",
-		"/home/roman/Rails/Adisk-new/vendor/assets/stylesheets/chosen.css",
-		"/home/roman/Rails/BackUp/12.01/Adisk/app/views/budgets/index.html.erb",
-		"/home/roman/Rails/BackUp/12.01/Adisk/app/models/budget.rb",
-		"/home/roman/Rails/BackUp/12.01/Adisk/app/controllers/budgets_controller.rb",
-		"/home/roman/Rails/Adisk-new/app/controllers/dashboard_controller.rb",
-		"/home/roman/Rails/Adisk-new/app/views/dashboard/test.haml",
-		"/home/roman/Rails/Remolino/config/routes.rb",
-		"/home/roman/Rails/Adisk-new/app/views/dashboard/index.haml",
-		"/home/roman/Rails/BackUp/Remolino/Gemfile",
-		"/home/roman/Rails/Remolino/app/concerns/documento.rb",
-		"/home/roman/Rails/Remolino/Guardfile",
-		"/home/roman/Rails/Remolino/app/concerns/users_array_extension.rb"
+		"/home/roman/Rails/Remolino/Gemfile"
 	],
 	"find":
 	{
@@ -749,6 +753,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"Quize",
+			"quize",
+			"quizes",
 			"side",
 			"open f",
 			"page_header",
@@ -836,6 +843,9 @@
 		"regex": true,
 		"replace_history":
 		[
+			"Quiz",
+			"quiz",
+			"quizzes",
 			"@cfo",
 			"@cfos",
 			"cfos",
@@ -890,51 +900,25 @@
 					"file": "app/assets/stylesheets/bootstrap_and_overrides.css.less",
 					"settings":
 					{
-						"buffer_size": 1559,
+						"buffer_size": 1792,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1504,
-								1504
+								1762,
+								1762
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/appden-less.tmbundle-a202dd9/Syntaxes/LESS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "config/application.rb",
-					"settings":
-					{
-						"buffer_size": 2824,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								887,
-								887
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 4,
+							"syntax": "Packages/appden-less.tmbundle-a202dd9/Syntaxes/LESS.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 51.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

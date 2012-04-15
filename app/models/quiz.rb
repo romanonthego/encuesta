@@ -1,3 +1,3 @@
-class Quize < ActiveRecord::Base
+class Quiz < ActiveRecord::Base
   attr_accessible :description, :title
 end

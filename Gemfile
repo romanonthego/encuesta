@@ -6,8 +6,9 @@ gem 'rails', '3.2.3'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-gem 'client_side_validations'
-gem "spine-rails"
+# gem 'client_side_validations'
+# gem "spine-rails"
+gem 'backbone-on-rails'
 gem "haml"
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem 'ruby-haml-js'
